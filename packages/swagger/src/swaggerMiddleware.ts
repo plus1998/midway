@@ -40,7 +40,8 @@ export class SwaggerMiddleware
     }
     this.swaggerRender = this.swaggerConfig.swaggerUIRender(
       this.swaggerConfig,
-      this.swaggerExplorer
+      this.swaggerExplorer,
+      this.swaggerConfig.swaggerUIRenderOptions
     );
   }
 
